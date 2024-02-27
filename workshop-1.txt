@@ -1,0 +1,103 @@
+Este taller está diseñado para desafiar y mejorar tus habilidades en programación y manejo de sistemas operativos, ofreciéndote una experiencia práctica tanto en Linux como en Python. Constará de dos ejercicios centrados en situaciones reales que podrías encontrar en el ámbito del desarrollo de software, especialmente en el manejo de datos y automatización de tareas. Tendrás 2 horas para completar ambos ejercicios, los cuales están diseñados para poner a prueba tus habilidades en:
+
+* Manipulación de archivos y directorios en Linux.
+* Programación en Python, enfocándose en el manejo de datos en formato JSON.
+* Aplicación de lógica para procesar y transformar datos.
+* Uso de la terminal de Linux y del editor de texto para escribir y ejecutar scripts de Python.
+
+
+Ejercicio 1.
+
+Se tiene una cadena de texto que representa información sobre un pedido en una tienda en línea. La cadena incluye el nombre del producto, la categoría, el precio original, y la cantidad, todo separado por comas. Se desea procesar esta cadena para aplicar un descuento basado en su llave discount, calcular el precio total (considerando la cantidad), y generar un resumen del pedido.
+
+Tareas:
+
+-- Seccion: Linux
+
+1. Crear Carpeta en el Escritorio: Crea una carpeta en tu escritorio utilizando tu nombre, seguido de un guion bajo y los últimos tres dígitos de tu cédula. Por ejemplo, si tu nombre es Nicolás y los últimos tres dígitos de tu cédula son 165, la carpeta debería llamarse nicolas_165.
+
+2. Crear Archivo store.py: En el escritorio, crea un archivo Python nuevo llamado store.py. Este archivo será utilizado para escribir el código del desafío.
+
+3. Crear Carpeta store_challenge: Dentro de la carpeta que acabas de crear en tu escritorio (por ejemplo, nicolas_165), crea una nueva carpeta y nómbrala store_challenge. Esta carpeta servirá para organizar los archivos relacionados con el desafío.
+
+4. Mover store.py a store_challenge: Traslada el archivo store.py desde el escritorio a la carpeta store_challenge que creaste en el paso anterior. Esto ayuda a mantener organizado tu espacio de trabajo.
+
+5. Descargar Archivo JSON: Accede al siguiente enlace https://acortar.link/IInEuQ para descargar el archivo products.json necesario para el desafio. Una vez descargado, mueve este archivo a la carpeta store_challenge. Asegúrate de verificar el contenido del archivo para entender cómo se utiliza en el proyecto.
+
+6. Verificación de la Estructura de Archivos: Asegúrate de que el archivo store.py y el archivo de configuración descargado se encuentren correctamente ubicados dentro de la ruta /home/[tu_usuario]/Desktop/[tu_nueva_carpeta]/store_challenge. Puedes verificar esto abriendo una terminal y utilizando el comando pwd.
+
+-- Seccion: Python
+
+1. Cargar archivo products.json utilizando el metodo load de la libreria json: Utiliza el metodo load y carga el archivo con el metodo load utilizando with statement.
+
+2. Generar Información de Pedido de Forma Aleatoria: Utiliza la biblioteca random junto con su función randrange() para seleccionar un elemento aleatorio de la lista simulando un pedido.
+
+3. Transformar valores obtenido: Una vez obtengas el elemento random, formatear los valores para recibir una cadena del siguiente tipo: "name=laptop;discount=15;price=1200;quantity=30"
+
+4. Extraer Información del Pedido: Una vez generada la cadena que representa un pedido, descompón esta cadena para extraer información crucial como el nombre del producto, la categoría, el precio unitario y la cantidad de productos pedidos.
+
+5. Aplicar Descuento: Basado en la llave "discount" del producto extraído, determina el porcentaje de descuento aplicable.
+
+6. Calcular el Precio Total con Descuento: Utiliza la información de precio y cantidad junto con el descuento aplicable para calcular el precio total después del descuento. Asegúrate de aplicar correctamente el descuento al precio unitario antes de multiplicarlo por la cantidad.
+
+7. Imprimir un Resumen del Pedido: Finalmente, genera un resumen detallado del pedido que incluya nombre del producto pedido, el descuento aplicado, el precio total antes y después del descuento. Este resumen debe conservar la siguiente estructura:
+
+--- Tu factura ---
+
+Producto: laptop
+Descuento: 15%
+Precio Original: 1200
+Precio Con Descuento: 1120
+
+8. Finalmente, modificar la llave quantity y restarle 1. En caso del resultado de quantity ser 0 el producto debe ser eliminado de la lista.
+
+-------------------------------------------------------------------------------------------------
+
+Ejercicio 2
+
+Se tiene un registro de empleados en formato JSON que incluye la identificación, nombre, departamento, salario base y años de servicio. Se desea procesar este registro para aplicar un incremento salarial basado en los años de servicio, calcular el nuevo salario, y generar un resumen de los incrementos.
+
+Tareas:
+
+-- Sección: Linux
+
+1. Crear Carpeta en el Escritorio: Crea una carpeta en tu escritorio utilizando tu apellido, seguido de un guion bajo y los primeros tres dígitos de tu teléfono. Por ejemplo, si tu apellido es Rodriguez y los primeros tres dígitos de tu teléfono son 321, la carpeta debería llamarse rodriguez_321.
+
+2. Crear Archivo employees.py: En el escritorio, crea un archivo Python nuevo llamado employees.py. Este archivo será utilizado para escribir el código del desafío.
+
+3. Crear Carpeta employees_challenge: Dentro de la carpeta que acabas de crear en tu escritorio (por ejemplo, rodriguez_321), crea una nueva carpeta y nómbrala employees_challenge. Esta carpeta servirá para organizar los archivos relacionados con el desafío.
+
+4. Mover employees.py a employees_challenge: Traslada el archivo employees.py desde el escritorio a la carpeta employees_challenge que creaste en el paso anterior. Esto ayuda a mantener organizado tu espacio de trabajo.
+
+5. Descargar Archivo JSON: Accede al siguiente enlace https://acortar.link/g7romA para descargar el archivo employees.json necesario para el desafío. Una vez descargado, mueve este archivo a la carpeta employees_challenge. Asegúrate de verificar el contenido del archivo para entender cómo se utiliza en el proyecto.
+
+6. Verificación de la Estructura de Archivos: Asegúrate de que el archivo employees.py y el archivo de configuración descargado se encuentren correctamente ubicados dentro de la ruta /home/[tu_usuario]/Desktop/[tu_nueva_carpeta]/employees_challenge. Puedes verificar esto abriendo una terminal y utilizando el comando pwd.
+
+-- Sección: Python
+
+1. Cargar archivo employees.json utilizando el método load de la librería json: Utiliza el método load y carga el archivo con el método load utilizando with statement.
+
+2. Generar Información de Incremento de Salario de Forma Aleatoria: Utiliza la biblioteca random junto con su función randrange para seleccionar un empleado aleatorio de la lista simulando una revisión salarial.
+
+3. Calcular Incremento Basado en Años de Servicio: Basado en los años de servicio del empleado seleccionado, determina el porcentaje de incremento aplicable utilizando una estructura de decisión:
+
+- 1 año -> No hay incremento
+- 2 año -> incremento del 10%
+- 3 año -> incremento del 30%
+- mas de 3 años -> incremento del 50%
+
+4. Aplicar Incremento al Salario: Utiliza la información de salario y años de servicio junto con el incremento aplicable para calcular el nuevo salario después del incremento.
+
+5. Imprimir un Resumen del Incremento: Genera un resumen detallado del incremento que incluya el id del empleado, nombre del empleado, departamento, años de servicio, salario original, incremento aplicado, y el nuevo salario. Este resumen debe seguir la siguiente estructura:
+
+--- Incremento John Doe. Departamento: IT   ---
+
+Id del usuario: 1
+Nombre: John Doe
+Departamento: IT
+Años De Servicio: 5
+Salario Original: 50000 USD/YEAR
+Incremento Aplicado: 50%
+Nuevo salario: 75000 USD/YEAR
+
+6. Actualizar el Registro de Empleados: Modificar el registro del empleado para reflejar el nuevo salario y mostrar por pantalla el empleado actualizado.
