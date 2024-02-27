@@ -1,0 +1,188 @@
+[
+    {
+        "name": "laptop",
+        "discount": 15,
+        "price": 1200,
+        "quantity": 30
+    },
+    {
+        "name": "tablet",
+        "discount": 20,
+        "price": 600,
+        "quantity": 40
+    },
+    {
+        "name": "e-reader",
+        "discount": 10,
+        "price": 150,
+        "quantity": 60
+    },
+    {
+        "name": "headphones",
+        "discount": 25,
+        "price": 200,
+        "quantity": 80
+    },
+    {
+        "name": "smartwatch",
+        "discount": 30,
+        "price": 300,
+        "quantity": 45
+    },
+    {
+        "name": "camera",
+        "discount": 18,
+        "price": 800,
+        "quantity": 25
+    },
+    {
+        "name": "printer",
+        "discount": 22,
+        "price": 100,
+        "quantity": 50
+    },
+    {
+        "name": "keyboard",
+        "discount": 12,
+        "price": 50,
+        "quantity": 70
+    },
+    {
+        "name": "mouse",
+        "discount": 15,
+        "price": 25,
+        "quantity": 90
+    },
+    {
+        "name": "external hard drive",
+        "discount": 20,
+        "price": 120,
+        "quantity": 30
+    },
+    {
+        "name": "monitor",
+        "discount": 18,
+        "price": 230,
+        "quantity": 40
+    },
+    {
+        "name": "router",
+        "discount": 25,
+        "price": 90,
+        "quantity": 50
+    },
+    {
+        "name": "speakers",
+        "discount": 30,
+        "price": 150,
+        "quantity": 45
+    },
+    {
+        "name": "microphone",
+        "discount": 17,
+        "price": 80,
+        "quantity": 60
+    },
+    {
+        "name": "VR headset",
+        "discount": 28,
+        "price": 400,
+        "quantity": 35
+    },
+    {
+        "name": "graphics tablet",
+        "discount": 15,
+        "price": 200,
+        "quantity": 40
+    },
+    {
+        "name": "smartphone case",
+        "discount": 10,
+        "price": 20,
+        "quantity": 100
+    },
+    {
+        "name": "charging cable",
+        "discount": 5,
+        "price": 10,
+        "quantity": 150
+    },
+    {
+        "name": "wireless charger",
+        "discount": 20,
+        "price": 60,
+        "quantity": 55
+    },
+    {
+        "name": "memory card",
+        "discount": 12,
+        "price": 30,
+        "quantity": 75
+    },
+    {
+        "name": "desk lamp",
+        "discount": 5,
+        "price": 45,
+        "quantity": 20
+    },
+    {
+        "name": "action camera",
+        "discount": 25,
+        "price": 350,
+        "quantity": 15
+    },
+    {
+        "name": "gaming chair",
+        "discount": 18,
+        "price": 190,
+        "quantity": 10
+    },
+    {
+        "name": "Bluetooth earbuds",
+        "discount": 20,
+        "price": 130,
+        "quantity": 40
+    },
+    {
+        "name": "fitness tracker",
+        "discount": 30,
+        "price": 99,
+        "quantity": 50
+    },
+    {
+        "name": "digital drawing pad",
+        "discount": 15,
+        "price": 210,
+        "quantity": 25
+    },
+    {
+        "name": "LED monitor",
+        "discount": 10,
+        "price": 250,
+        "quantity": 30
+    },
+    {
+        "name": "portable SSD",
+        "discount": 20,
+        "price": 120,
+        "quantity": 40
+    },
+    {
+        "name": "USB microphone",
+        "discount": 22,
+        "price": 85,
+        "quantity": 35
+    },
+    {
+        "name": "webcam",
+        "discount": 12,
+        "price": 60,
+        "quantity": 45
+    },
+    {
+        "name": "gaming mouse pad",
+        "discount": 5,
+        "price": 25,
+        "quantity": 60
+    }
+]
